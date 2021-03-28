@@ -1,0 +1,17 @@
+{
+    "name": "tchury/responser",
+    "description": "Smart HTTP responses",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessandro D’Orazio",
+            "email": "me@alessandrodorazio.it"
+        }
+    ],
+    "require": {},
+     "autoload": {
+            "psr-4": {
+                "Tchury\\responser\\": "src/"
+            }
+        }
+}
