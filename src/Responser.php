@@ -9,7 +9,7 @@ class Responser
     public function response()
     {
         if (!isset($this->response['success']) || $this->status > 400) {
-            $this->response['success'] = false;
+            $this->response['success'] = true;
         }
 
         return response()->json($this->response, $this->status);
